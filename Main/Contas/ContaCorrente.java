@@ -1,3 +1,4 @@
+package Main.Contas;
 public class ContaCorrente extends Conta {
 
 	public ContaCorrente(Cliente cliente) {

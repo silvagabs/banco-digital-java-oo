@@ -1,3 +1,10 @@
+package Main;
+
+import Main.Contas.Cliente;
+import Main.Contas.Conta;
+import Main.Contas.ContaCorrente;
+import Main.Contas.ContaPoupanca;
+
 public class Main {
 
 	public static void main(String[] args) {
