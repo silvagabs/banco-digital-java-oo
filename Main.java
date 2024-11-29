@@ -30,14 +30,8 @@ public class Main {
 
 		cc.imprimirExtrato();
 
-		if (cc != null) {
 			System.out.println("Venilton recebeu uma transferência!");
 			
-		}
-
-		
-
-
 
 	}
 
