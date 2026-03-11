@@ -18,10 +18,10 @@ public abstract class Conta implements IConta {
 
 	@Override
 	public void sacar(double valor) {
-		if(saldo<=valor){
+		if (valor>saldo){
+			System.out.println("Saldo insuficiente! Seu saldo é: "+saldo);
+		}else if(valor<=saldo){
 			saldo-=valor;
-		}else if (saldo>valor){
-			//função transversal
 		}
 	}
 

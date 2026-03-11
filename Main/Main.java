@@ -39,7 +39,9 @@ public class Main {
 
 			System.out.println("Venilton recebeu uma transferência!");
 			
-		cc.sacar(50);
+		
+		cc.imprimirExtrato();
+        System.out.println("Venilton quer sacar 1000 de seu saldo!");
 		cc.sacar(1000);
 
 	}
