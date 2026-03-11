@@ -18,7 +18,11 @@ public abstract class Conta implements IConta {
 
 	@Override
 	public void sacar(double valor) {
-		saldo -= valor;
+		if(saldo<=valor){
+			saldo-=valor;
+		}else if (saldo>valor){
+			//função transversal
+		}
 	}
 
 	@Override

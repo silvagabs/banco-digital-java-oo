@@ -1,4 +1,5 @@
 package Main.Contas;
+
 public interface IConta {
 	
 	void sacar(double valor);

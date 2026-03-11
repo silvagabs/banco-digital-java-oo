@@ -39,6 +39,8 @@ public class Main {
 
 			System.out.println("Venilton recebeu uma transferência!");
 			
+		cc.sacar(50);
+		cc.sacar(1000);
 
 	}
 
